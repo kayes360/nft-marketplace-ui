@@ -39,21 +39,26 @@ import "swiper/css/effect-cards";
 
 // import required modules
 import { EffectCards } from "swiper/modules";
+import CurvedText from "../CurvedText";
 
 export default function CardStackSlider() {
   return (
+    <div className="">
     <Swiper
       effect={"cards"}
       grabCursor={true}
       modules={[EffectCards]}
       loop={true}
-      className="mySwiper"
+      className="mySwiper position-relative "
     >
       {[...heroCards, ...heroCards].map((card, index) => (
         <SwiperSlide key={`${card.id}-${index}`}> {/* Unique key */}
           <Card card={card} />
         </SwiperSlide>
       ))}
+    <CurvedText/>
+
     </Swiper>
+    </div>
   );
 }

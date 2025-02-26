@@ -170,9 +170,7 @@ body {
   animation: spinRev 5s linear infinite;
 }
 .hero-circle {
-  z-index: 4;
-  top: 10rem;
-  right: 90%;
+  z-index: 4; 
 }
 @keyframes spin {
   100% {
@@ -333,11 +331,11 @@ body {
 .section-two svg {
   width: 60px;
 }
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .section-two {
     margin-top: 24rem;
   }
-}
+} */
 /* Section Two End*/
 
 /* Section Three */
@@ -766,6 +764,21 @@ footer li {
 .swiper {
     height: 24rem;
     width: 20rem;
+}
+@media screen and (max-width: 425px) {
+  .swiper { 
+    width: 18rem;
+}
+}
+@media screen and (max-width: 375px) {
+  .swiper { 
+    width: 16rem;
+}
+}
+@media screen and (max-width: 325px) {
+  .swiper { 
+    width: 14rem;
+}
 }
 
 .swiper-slide {
