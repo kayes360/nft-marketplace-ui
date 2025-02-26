@@ -1,5 +1,5 @@
 # NFT Marketplace UI
- ## Live URL :link: https://nft-website-static-ui.vercel.app/
+ ## Live URL :link: https://nft-marketplace-ui-gold-seven.vercel.app/
  
 
 ## Overview
